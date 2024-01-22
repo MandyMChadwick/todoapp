@@ -43,11 +43,12 @@ class App extends Component{
     .then((result)=>{
       alert(result);
       this.refreshNotes();
-      
+
     })
   }
 
 render() {
+  
   const{notes}=this.state;
   return (
     <div className="App">
