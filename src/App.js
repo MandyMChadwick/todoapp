@@ -8,6 +8,7 @@ class App extends Component{
     this.state={
       notes:[]
     }
+    
 
   }
   API_URL="http://localhost:5038/";
@@ -48,7 +49,7 @@ class App extends Component{
   }
 
 render() {
-  
+
   const{notes}=this.state;
   return (
     <div className="App">
